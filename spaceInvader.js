@@ -5,7 +5,17 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 let context = canvas.getContext('2d');
 
+drawBackground();
 drawSpaceInvader();
+
+function drawBackground(){
+
+    context.beginPath();
+    context.fillStyle = "black";
+    context.rect(75,75,300,300);
+    context.stroke();
+    context.fill();
+}
 
 function drawSpaceInvader(){
 
