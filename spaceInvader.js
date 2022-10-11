@@ -20,8 +20,8 @@ function drawBackground(){
 function drawSpaceInvader(){
 
     context.beginPath();
-    context.fillStyle = "#a35ad5";
-    context.strokeStyle = "#a35ad5";
+    context.fillStyle = "#66FF00";
+    context.strokeStyle = "#66FF00";
     context.rect(100,100,50,50);
     context.rect(150,150,50,200);
     context.rect(100,250,50,50);
